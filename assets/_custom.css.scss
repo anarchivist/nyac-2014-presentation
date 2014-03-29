@@ -1,0 +1,39 @@
+// Add Custom SCSS
+@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans:100,300,400,500,700,800,900,500italic,400italic,300italic);
+
+#takahashi {
+	h1 {
+  font-size: 100px;
+  margin-top: 20%;
+  font-weight: 900;
+}
+}
+
+.glow {
+	@include glow;
+}
+
+body {
+	background: black;
+	color: white;
+}
+
+section {
+	font-family: 'Alegreya Sans', sans-serif;
+	font-weight: 400;
+}
+
+h1, h2 {
+	font-family: 'Alegreya Sans', sans-serif;
+	font-weight: #0060ff;
+	font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  color: #ffd53f;
+}
+
+a:visited {
+  color: #ffd53f;
+}

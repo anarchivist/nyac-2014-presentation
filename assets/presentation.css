@@ -1,0 +1,71 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900,500);
+@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans:100,300,400,500,700,800,900,500italic,400italic,300italic);
+div[role=note] {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  color: white;
+  background-color: gray;
+  opacity: 0.85;
+  padding: 20px;
+  font-size: 12px;
+  width: 100%; }
+
+a {
+  text-decoration: none; }
+
+a:visited {
+  color: #0000EE; }
+
+td {
+  border-left: 0;
+  border-right: 0; }
+
+section {
+  font-family: 'Roboto', sans-serif; }
+
+body {
+  border-radius: 0; }
+
+h1, h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300; }
+
+img {
+  max-width: 100%; }
+
+table {
+  margin-left: auto;
+  margin-right: auto; }
+
+#progress-bar {
+  height: 5px;
+  background: #AAA; }
+
+#takahashi h1 {
+  font-size: 100px;
+  margin-top: 20%;
+  font-weight: 900; }
+
+.glow {
+  text-shadow: -1px 1px 8px #cc0000, 1px -1px 8px #cc0000; }
+
+body {
+  background: black;
+  color: white; }
+
+section {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 400; }
+
+h1, h2 {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: #0060ff;
+  font-weight: 300; }
+
+a {
+  text-decoration: none;
+  color: #ffd53f; }
+
+a:visited {
+  color: #ffd53f; }
