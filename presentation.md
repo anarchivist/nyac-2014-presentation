@@ -1,18 +1,20 @@
-# Among Place and Non-Place {#first}
-## Situating the Digital Public Library of America
+# The Digital Public Library of America
+## An Introduction
 
 Mark A. Matienzo   
-Digital Public Library of America   
-@anarchivist
+Director of Technology    
+mark@dp.la
 
-British Columbia Library Conference    
-April 1, 2014
+New York Archives Conference     
+Binghamton, NY    
+June 6, 2014
 
 Slides: <http://matienzo.org/presentations/>
 
 <div role="note" class="note">
 Hello! I'm Mark Matienzo, the Director of Technology for the Digital Public Library of America.    
-Thank you for giving me the opportunity to speak at BCLC and to travel to Vancouver.    
+Thank you for giving me the opportunity to speak at NYAC and to travel to the Southern Tier. I grew up about fifteen minutes from here and it's great to be back.    
+In this talk, I'll be providing an introduction to the Digital Public Library of America, how we're organized, and the work we do. Both Kerri and I will make sure that we leave plenty of time for questions.
 </div>
 
 # What is DPLA? {.takahashi}
@@ -49,7 +51,7 @@ In this presentation, I will be talking about some ways in which DPLA has establ
 <div role="note" class="note">
 DPLA didn’t just appear one day as a small start-up non-profit.    
 Instead, it was the result of a two-year grassroots planning initiative that started in 2010.    
-The DPLA planning process began in October 2010 at a meeting in Cambridge, MA.   
+The DPLA planning process began in October 2010 at a meeting in Cambridge, Massachusetts.   
 During this meeting, 40 leaders from libraries, foundations, academia, and technology projects agreed to work together to create "an open, distributed network of comprehensive online resources that would draw on the nation’s living heritage from libraries, universities, archives, and museums in order to educate, inform, and empower everyone in current and future ­generations."   
 That single sentence banded together hundreds toward a common goal of building a national digital library platform.
 </div>
@@ -87,7 +89,7 @@ The DPLA portal is a tool for the discovery of content.
 It currently contains records for 5.8 million digital objects that are open and freely accessible to all users anywhere.    
 When discussing the DPLA as a portal for discovery, we like to emphasize the "one-stop shop" idea.     
 This means that through one portal, you can access many collections with related content and see connections between that content in new ways.    
-A search for John Steinbeck might produce results from many different DPLA partners – taken together they represent a more robust collection of Steinbeck material accessed easily through a simple search.    
+A search for John Steinbeck might produce results from many different DPLA partners – taken together they represent a more robust collection of Steinbeck material accessed easily through a simple search of one institution or a regional consortium.    
 This model means that a record from a small historical society can have the same status in DPLA as a record from a large institution like the National Archives.
 </div>
 
@@ -187,7 +189,7 @@ Most importantly, we provide free and open access to the Platform and the metada
 
 <div role="note" class="note">
 How is it free? *NEXT*    
-As part of the contribution process, we require all of our partners to license their metadata under the CC Zero license.   
+As part of the contribution process, we require all of our partners to license their metadata under the Creative Commons CC Zero license.   
 This CC license lets creators and owners of copyright-protected content to waive all copyright interests in their works and thereby place them as completely as possible in the public domain, so that others may freely build upon, enhance and reuse the works for any purposes without restrictions under copyright.
 In addition to the open licensing for the metadata, we have also released all of our infrastructure - the platform, the portal, and our exhibition code, under open source licenses.
 </div>
@@ -219,7 +221,7 @@ Right now, the API gets more hits than the portal!
 What powers the platform, the portal, and apps is our metadata within the platform.    
 DPLA harvests metadata in many different formats, such as Dublin Core, MODS, MARCXML, and others.
 As part of the process to bring in a partner's metadata, we map the incoming data to our Metadata Application Profile.
-In this process, we also enrich the data.
+In this process, we also enrich the data, by doing things like parsing date statements to identify start and end dates, identifying what type of the material an item describes (such as text, image, sound, and so forth), and extracting and processing place names.
 </div>
 
 ------------------
@@ -257,8 +259,8 @@ In addition, we recently submitted an entry to the Knight Foundation's Knight Ne
 # How is this possible? {.takahashi}
 
 <div role="note" class="note">
-Now, you may wonder how this is possible, because those 5.8 million items had to come from somewhere.
-In addition, DPLA has a small staff - currently, we're seven full time employees and one intern.   
+Now, you may wonder how this is possible, because those seven million items had to come from somewhere.
+In addition, DPLA has a small staff - currently, we're eight full time employees and one intern.   
 There's no special magic here - just lots and lots of collaboration.
 </div>
 
@@ -289,6 +291,14 @@ The DPLA Service Hubs are state or regional digital libraries that aggregate inf
 Like content hubs, service hubs share metadata and content previews and work with DPLA to make their metadata globally interoperable. 
 In addition, service hubs also represent their community as single metadata aggregation point (state, region, etc., but perhaps differently defined communities in the future).   
 Each Service Hub also offers its state or regional partners a full menu of standardized digital services, including digitization, metadata, data aggregation and storage services, as well as locally hosted community outreach programs, bringing users in contact with digital content of local relevance.   
+</div>
+
+------------------
+
+# ![](images/hubs-map.jpg)
+
+<div role="note" class="note">
+This is a map of both current hubs and those which are in progress, indicating states with active service hubs, the partner states for service hubs, and the location of content hubs.
 </div>
 
 # A Network of Partners
@@ -575,7 +585,7 @@ DPLA is uniquely situated because of its independence, and we need to take the s
 <http://matienzo.org/presentations>
 
 <div role="note" class="note">
-Thank you for your time and for bringing me to Vancouver.    
+Thank you for your time.    
 I look forward to speaking with you further, and I would greatly appreciate any questions or feedback about the work we're doing at DPLA.
 </div>
 
