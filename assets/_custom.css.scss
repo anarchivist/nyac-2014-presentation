@@ -1,7 +1,7 @@
 // Add Custom SCSS
 @import url(http://fonts.googleapis.com/css?family=Alegreya+Sans:100,300,400,500,700,800,900,500italic,400italic,300italic);
 
-#takahashi {
+.takahashi {
 	h1 {
   font-size: 100px;
   margin-top: 20%;
@@ -36,4 +36,8 @@ a {
 
 a:visited {
   color: #ffd53f;
+}
+
+figcaption {
+	margin: 0;
 }

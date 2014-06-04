@@ -1,55 +1,12 @@
-# starterdeck
+Slides and notes for my BCLC 2014 presentation
+=== 
 
-Starterdeck is a repository for cloning to quickly getting started creating a presentation slideshow.
+I gave a talk at the [2014 British Columbia Library Conference](https://bclaconnect.ca/2014-conference/). These are the slides and notes from my talk.
 
-## About
+Slides were generated using DZSlides, Pandoc, and Jason Ronallo's [starterdeck](https://github.com/jronallo/starterdeck).
 
-You can read more about this approach to creating slideshows here:
+Title: Among Place and Non-Place: Situating the Digital Public Library of America
 
-<http://jronallo.github.io/blog/html-and-pdf-slideshows-with-dzslides/>
+Abstract:
 
-## Getting started
-
-You could fork the repository. But often I have a slide deck which is part of a larger repository, so I would rather just do an "export" into a new directory. So just clone this repository and then from within the cloned repository do something like this:
-
-```
-$ git archive master | tar -x -C ~/project/new_presentation
-```
-
-## Running
-
-`bundle exec guard`
-
-Open presentation.html in a browser window with the livereload plugin.
-
-Edit presentation.md.
-
-Publish your slideshow as a single page including all images.
-
-## Using the Latest DZSlides Template
-
-```
-wget --directory-prefix ~/.pandoc/dzslides https://raw.githubusercontent.com/paulrouget/dzslides/master/template.html
-```
-
-See the addition to the first comment here: <https://github.com/paulrouget/dzslides/issues/52>
-
-## Customization
-
-Edit assets/_custom.css.scss using the SCSS syntax.
-
-Edit assets/custom.js to add custom JavaScript.
-
-## Sass
-
-This project uses Sass and provides some mixins for some common slide styles. You can see them in assets/_starterdeck.css.scss
-
-## Speaker notes
-
-Included in assets/starterdeck.js is some JavaScript to toggle notes off and on using the "n" key.
-
-## Exporting a PDF
-
-`scripts/dzslides2pdf.rb http://localhost/ presentation.html`
-
-
+> The Digital Public Library of America (http://dp.la) brings together the riches of America’s libraries, archives, and museums, and makes them freely available to the world through its portal for discovery, its platform enabling new and transformative use of digital cultural heritage, and advocacy for a strong public option for access to cultural heritage materials. In this session, we will be considering how DPLA has situated itself in terms of place in three ways: through its network of hubs and partners, through its Community Reps program, and through geocoding items and their presentation on a map in our portal. We will also discuss future possibilities for how a geographically distributed digital library could help foster a stronger connection between its user community and physical place.

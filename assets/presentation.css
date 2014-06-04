@@ -42,7 +42,7 @@ table {
   height: 5px;
   background: #AAA; }
 
-#takahashi h1 {
+.takahashi h1 {
   font-size: 100px;
   margin-top: 20%;
   font-weight: 900; }
@@ -69,3 +69,6 @@ a {
 
 a:visited {
   color: #ffd53f; }
+
+figcaption {
+  margin: 0; }
