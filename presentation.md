@@ -389,9 +389,12 @@ I like to think of us more like a water cycle, wherein all partners play an equa
 Partners who contribute their metadata to DPLA themselves also benefit from their participation in a number of ways, including increased access, increased visibility, and increased usage.
 </div>
 
+
 # Increased Access {.takahashi}
 
-We'll first talked about increased access and the network effects that DPLA participation provides.
+<div role="note" class="note">
+We'll first talked about increased access and the network effects that DPLA participation provides to its partners.
+</div>
 
 ------------------
 
@@ -583,7 +586,7 @@ Finally, we may ask Community Reps on occasion to give a presentation or partici
 For example, if they are attending or live near a conference at which the organizers have asked for a DPLA presentation, we may ask them to take this on if DPLA staff are unable to participate.
 </div>
 
-# Thank You!
+# Thank You! {.takahashi}
 
 [\@anarchivist](https://twitter.com/anarchivist)
 
