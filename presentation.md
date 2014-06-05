@@ -86,7 +86,7 @@ Thirdly, DPLA is an advocate for a strong public option in the twenty-first cent
 
 <div role="note" class="note">
 The DPLA portal is a tool for the discovery of content.     
-It currently contains records for 5.8 million digital objects that are open and freely accessible to all users anywhere.    
+It currently contains records for over 7 million digital objects that are open and freely accessible to all users anywhere.    
 When discussing the DPLA as a portal for discovery, we like to emphasize the "one-stop shop" idea.     
 This means that through one portal, you can access many collections with related content and see connections between that content in new ways.    
 A search for John Steinbeck might produce results from many different DPLA partners – taken together they represent a more robust collection of Steinbeck material accessed easily through a simple search of one institution or a regional consortium.    
@@ -115,7 +115,7 @@ For example, you can perform simple searches, sort the results, and filter them 
 
 <div role="note" class="note">
 In addition to a familiar search paradigm, we provide a few additional interfaces that allow users to find and interact with collections in new ways.    
-The DPLA Timeline similarly uses available time information—year, month, day—to chart records related to a search over time.   
+The DPLA Timeline uses available time information—year, month, day—to chart records related to a search over time.   
 Using the red slider on the right, a user can capture a particular period of time that will display in the blue section at the bottom.    
 Within this section, they can click on search results for a particular decade or a particular year (indicated by the vertical bars—longer bars have more results).   
 This can make it easier for some users to browse large result sets.
@@ -126,7 +126,7 @@ This can make it easier for some users to browse large result sets.
 ![<http://dp.la/bookshelf>](images/bookshelf-1.png)
 
 <div role="note" class="note">
-The DPLA Bookshelf provides is yet another way that we provide an innovative mechanism for users to interact with materials available through our portal.    
+The DPLA Bookshelf is yet another way that we provide an innovative mechanism for users to interact with materials available through our portal.    
 The items on Bookshelf represent digitized books available through the portal, from providers such as the University of California, the University of Illinois, and the New York Public Library.    
 The shelf is shown as a vertical stack so that the titles and authors are more easily readable on their spines.    
 The width of the book represents the actual height of the physical book, and its thickness represents its page count.    
@@ -157,10 +157,9 @@ This replaces the existing shelf with a shelf containing all the other books in 
 ![<http://dp.la/map>](images/map-1.png)
 
 <div role="note" class="note">
-Finally, and perhaps the most obvious way in which DPLA provides a place based location is through the map in the Portal.    
-The map interface presents items contributed by DPLA partners that have some degree of geographic information included wihtin their metadata.    
+Finally, DPLA provides a map interface, which presents items contributed by DPLA partners that have some degree of geographic information included within their metadata.    
 It is important to note that not all records in DPLA have geographic information.   
-As the search box at the top indicates, only records with geographic information appear on the map, and while that is a large portion of the DPLA’s collection, it is not all items related to a search.
+As the box at the top indicates, only records with geographic information appear on the map, and while that is a large portion of the DPLA’s collection, it is not all items related to a search.
 </div>
 
 ------------------
@@ -219,7 +218,7 @@ In addition to the open licensing for the metadata, we have also released all of
 ![<http://dp.la/info/developers/download/>](images/platform-data.png)
 
 <div role="note" class="note">
-For those developers that want to work with all of our metadata, or from a specific provider at once, we provide a bulk download option.
+For those developers that want to work with all of our metadata, or with all of the records from a specific provider at once, we provide a bulk download option.
 </div>
 
 # The DPLA API {.takahashi}
@@ -252,7 +251,7 @@ Once we have those coordinates, we send them back to another service that "rever
 ![<http://dp.la/apps>](images/app-library.png)
 
 <div role="note" class="note">
-We encourage to build applications and interfaces using our API.
+We encourage anyone to build applications and interfaces using our API.
 We also provide a public app library, which allows submissions.
 Submitting your app to the app library can help with promotion, and helps us demonstrate that people are actively using the API.  
 In addition to the apps listed here, apps submitted to the library include OpenPics, an iOS application for access to cultural heritage images, several map-based visualizations, and Serendip-o-matic, a tool that analyzes your research materials for keywords and finds related items in DPLA and other sources.
@@ -333,7 +332,7 @@ Each Service Hub also offers its state or regional partners a full menu of stand
 ![New Hubs](images/new-hubs.png)
 
 <div role="note" class="note">
-With two service hubs and four content hubs waiting in the wings. Getty, Indiana, Gov’t Printing Office, Connecticut, and California Digital Library.
+We also have two service hubs and four content hubs waiting in the wings. Getty, Indiana, Gov’t Printing Office, Connecticut, and California Digital Library.
 </div>
 
 ------------------
@@ -361,7 +360,7 @@ In turn, the Hubs serve up this content to DPLA.
 ![DPLA partners as of 2014](images/partners-chart.png)
 
 <div role="note" class="note">
-This chart represents the breakdown as of 2013 in terms of types of partners whose content is represented in DPLA.    
+This chart represents the breakdown in terms of types of partners whose content is represented in DPLA.    
 As you can see, there is a wide range of types of institutions, including government agencies, museums, historical societies, academic libraries, and so on.
 </div>
 
@@ -393,7 +392,7 @@ Partners who contribute their metadata to DPLA themselves also benefit from thei
 # Increased Access {.takahashi}
 
 <div role="note" class="note">
-We'll first talked about increased access and the network effects that DPLA participation provides to its partners.
+We'll first talk about increased access and the network effects that DPLA participation provides to its partners.
 </div>
 
 ------------------
@@ -434,7 +433,7 @@ And, just maybe you’ll visit their site, contact them, or spread the good word
 [New York Times ArtsBeat blog, April 22, 2014](http://artsbeat.blogs.nytimes.com/2014/04/22/digital-public-library-of-america-marks-a-year-of-rapid-growth/)
 
 <div role="note" class="note">
-By participating in a national network, DPLA parteners also benefit from promotion around DPLA itself.    
+By participating in a national network, DPLA partners also benefit from promotion around DPLA itself.    
 For example, DPLA's first anniversary was recently covered by a blog on the New York Times ArtsBeat blog.    
 Staff from the Minnesota Streetcar Museum saw a spike in usage of their materials on the days following the publication of this blog post. 
 </div>
@@ -520,7 +519,7 @@ Kerri will be talking more specifically about the Empire State Digital Network, 
 ![<http://dp.la/info/developers/>](images/dpla-hack.png)
 
 <div role="note" class="note">
-You can also build apps using our API, like the ones I discussed for and those listed here.    
+You can also build apps using our API, like the ones I discussed before and those listed here.    
 We encourage the independent development of applications, tools, and resources that make use of data contained in the DPLA platform in new and innovative ways, from anywhere at anytime.
 </div>
 
@@ -538,6 +537,7 @@ Anyone can join the open calls, either just by listening in or asking questions.
 # Community Reps {.takahashi}
 
 <div role="note" class="note">
+DPLA also has a formally organized volunteer program, called the Community Reps program.    
 In September 2013, DPLA staff conceived of a program of community representatives, or volunteers that would help spread the word about DPLA.    
 While DPLA was still in its planning phase, my colleagues found that our web forums and committees provided a forum for interested and motivated people to help out and give us feedback.    
 </div>
