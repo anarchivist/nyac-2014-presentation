@@ -39,11 +39,11 @@ The DPLA aims to expand this crucial realm of openly available materials, and ma
 
 --------------------
 
-[![Churchman and Moore's "Eagle Map of the United States", 1833. David Rumsey Maps](images/eagle-map.png)](http://dp.la/item/1619731699db08a2c2f8584e12729e72)
+![[Churchman and Moore's "Eagle Map of the United States"](http://dp.la/item/1619731699db08a2c2f8584e12729e72), 1833. David Rumsey Maps](images/eagle-map.png)
 
 <div role="note" class="note">
-DPLA has a unique opportunity to connect people across the United States and its territories with cultural heritage materials.
-In this presentation, I will be talking about some ways in which DPLA has established local connections, including in terms of our organizational infrastructure, our outreach, and our portal and ways in which we could improve that going forward.
+DPLA has a unique opportunity to connect people across the United States and its territories with cultural heritage materials through a freely accessible site.    
+DPLA is a portal that offers users metadata (or records) and content previews (like thumbnails). If a user wants to see a full digital object, they are referred back to a hosting institution’s website.    
 </div>
 
 # History {.takahashi}
@@ -82,7 +82,7 @@ Thirdly, DPLA is an advocate for a strong public option in the twenty-first cent
 </div>
 
 # A <span class="glow">Portal</span> for Discovery {.takahashi}
-## [http://dp.la/](http://dp.la)
+## <http://dp.la/>
 
 <div role="note" class="note">
 The DPLA portal is a tool for the discovery of content.     
@@ -95,7 +95,7 @@ This model means that a record from a small historical society can have the same
 
 ------------------
 
-![http://dp.la/](images/portal-1.png)
+![<http://dp.la/>](images/portal-1.png)
 
 <div role="note" class="note">
 When you first visit DPLA's portal, you are given a variety of ways to find cultural materials. 
@@ -103,7 +103,7 @@ When you first visit DPLA's portal, you are given a variety of ways to find cult
 
 ------------------
 
-![http://dp.la](images/portal-2.png)
+![<http://dp.la/>](images/portal-2.png)
 
 <div role="note" class="note">
 For example, you can perform simple searches, sort the results, and filter them by format, contributing institution or partner, date, language, location, or subject.
@@ -111,7 +111,7 @@ For example, you can perform simple searches, sort the results, and filter them 
 
 ------------------
 
-![http://dp.la/timeline](images/timeline.png)
+![<http://dp.la/timeline>](images/timeline.png)
 
 <div role="note" class="note">
 In addition to a familiar search paradigm, we provide a few additional interfaces that allow users to find and interact with collections in new ways.    
@@ -123,7 +123,7 @@ This can make it easier for some users to browse large result sets.
 
 ------------------
 
-![http://dp.la/bookshelf](images/bookshelf-1.png)
+![<http://dp.la/bookshelf>](images/bookshelf-1.png)
 
 <div role="note" class="note">
 The DPLA Bookshelf provides is yet another way that we provide an innovative mechanism for users to interact with materials available through our portal.    
@@ -135,7 +135,7 @@ The spine is colored with one of ten depths of blue to indicate how relevant the
 
 ------------------
 
-![http://dp.la/bookshelf](images/bookshelf-2.png)
+![<http://dp.la/bookshelf>](images/bookshelf-2.png)
 
 <div role="note" class="note">
 When a reader clicks on one of the books, additional information about it is displayed to its right. The reader can open the book with the click of a button.    
@@ -145,7 +145,7 @@ Clicking on a thumbnail displays the image and additional information about it.
 
 ------------------
 
-![http://dp.la/bookshelf](images/bookshelf-3.png)
+![<http://dp.la/bookshelf>](images/bookshelf-3.png)
 
 <div role="note" class="note">
 In addition, users can explore further by clicking on one of the subjects under which the book has been categorized.    
@@ -154,16 +154,36 @@ This replaces the existing shelf with a shelf containing all the other books in 
 
 ------------------
 
-![http://dp.la/map](images/map-1.png)
+![<http://dp.la/map>](images/map-1.png)
 
 <div role="note" class="note">
-We also provide a map-based interface that allows users to identify the places associated with a given item.
-I'll be talking about the map, how we augment the data we receive to produce this map, and some of the issues we've identified in the process, later in the presentation.
+Finally, and perhaps the most obvious way in which DPLA provides a place based location is through the map in the Portal.    
+The map interface presents items contributed by DPLA partners that have some degree of geographic information included wihtin their metadata.    
+It is important to note that not all records in DPLA have geographic information.   
+As the search box at the top indicates, only records with geographic information appear on the map, and while that is a large portion of the DPLA’s collection, it is not all items related to a search.
 </div>
 
 ------------------
 
-![http://dp.la/exhibitions](images/exhibitions-1.png)
+![<http://dp.la/map>](images/map-2.png)
+
+<div role="note" class="note">
+One very common misconception about the DPLA map is that it organizes records geographically by the institutions they come from.     
+For example, users of this search might assumed that we have 12,000 items that originate from institutions located in central New York.    
+In reality, we have 12,000 items identified as "being about", representing, or depicting central New York – like images taken there.    
+</div>
+
+------------------
+
+![<http://dp.la/map>](images/map-3.png)
+
+<div role="note" class="note">
+As you zoom in, you can more clearly see the places depicted or represented in these items, based on the information.   
+</div>
+
+------------------
+
+![<http://dp.la/exhibitions>](images/exhibitions-1.png)
 
 <div role="note" class="note">
 In addition to these interfaces I've just discussed, DPLA also provides curated exhibitions.   
@@ -196,7 +216,7 @@ In addition to the open licensing for the metadata, we have also released all of
 
 # Platform Data
 
-![http://dp.la/info/developers/download/](images/platform-data.png)
+![<http://dp.la/info/developers/download/>](images/platform-data.png)
 
 <div role="note" class="note">
 For those developers that want to work with all of our metadata, or from a specific provider at once, we provide a bulk download option.
@@ -221,12 +241,15 @@ Right now, the API gets more hits than the portal!
 What powers the platform, the portal, and apps is our metadata within the platform.    
 DPLA harvests metadata in many different formats, such as Dublin Core, MODS, MARCXML, and others.
 As part of the process to bring in a partner's metadata, we map the incoming data to our Metadata Application Profile.
-In this process, we also enrich the data, by doing things like parsing date statements to identify start and end dates, identifying what type of the material an item describes (such as text, image, sound, and so forth), and extracting and processing place names.
+In this process, we also enrich the data, by doing things like parsing date statements to identify start and end dates, identifying what type of the material an item describes (such as text, image, sound, and so forth), and extracting and processing place names.        
+Many of our providers include place names or other geographic headings in their metadata, and as part of the enrichment process we identify those headings.   
+We send the text of those headings to a geocoding service, which looks them up in a database, and returns a set of latitude and longitude coordinates for that place.    
+Once we have those coordinates, we send them back to another service that "reverse geocodes" them and provides us with a full place hierarchy, including country, state or province, region or county, and city, when available.     
 </div>
 
 ------------------
 
-![http://dp.la/apps](images/app-library.png)
+![<http://dp.la/apps>](images/app-library.png)
 
 <div role="note" class="note">
 We encourage to build applications and interfaces using our API.
@@ -243,9 +266,21 @@ The DPLA works with others to ensure that this critical, open intellectual lands
 The DPLA seeks to multiply openly accessible materials to strengthen the public option that libraries represent in their communities.
 </div>
 
+
 ------------------
 
-![](images/knight-challenge.png)
+![[Andrew Carnegie and wife.](http://dp.la/item/1c3ee75f1cb09f472d48ad4d9e4a6671) Photo by Leslie Jones. © Leslie Jones. CC BY-NC-ND.  Boston Public Library via Digital Commonwealth](images/carnegie.png)
+
+<div role="note" class="note">
+Like Andrew Carnegie opening libraries to the masses for free lending—free knowledge, we like to think that DPLA is helping to unlock and open up access to the wealth of knowledge in our nation’s cultural heritage institutions.     
+However, we are not working to replace the physical libraries, archives, and museums, or the great librarians, archivists, curators, and historians working in them.    
+Instead, by working together, through partnerships that (first) bring together our nation’s rich and varied collections—-books, letters, photographs, journals, posters, oral histories, music, film, and works of art and (second), DPLA can help its partners enhance those collections through new ways of interaction that none of us have yet imagined.
+</div>
+
+
+------------------
+
+![<http://kng.ht/1iZtPry>](images/knight-challenge.png)
 
 <div role="note" class="note">
 As an aggregator of metadata from many institutions, DPLA is in a unique position to help our partners recognize and manage data quality issues.   
@@ -272,9 +307,9 @@ The Hubs Program is designed to establish a national network of state and region
 The hubs model allows us to bring together digitized content from across the country into a single access point for end users, and an open platform for developers.
 </div>
 
-# Content Hubs
+----------------
 
-![](images/content-hubs.png)
+![Content Hubs](images/content-hubs.png)
 
 <div role="note" class="note">
 The DPLA Content Hubs are large digital libraries, museums, archives, or repositories that maintain a one-to-one relationship with the DPLA.    
@@ -282,9 +317,9 @@ Content hubs tend to be larger, with collections exceeding 250,000 records and c
 Content hubs work with DPLA to make their metadata globally interoperable, meaning that they work with DPLA to normalize, clean, update their data, and investigate new methods for data sharing.
 </div>
 
-# Service Hubs
+-----------------
 
-![](images/service-hubs.png)
+![Service Hubs](images/service-hubs.png)
 
 <div role="note" class="note">
 The DPLA Service Hubs are state or regional digital libraries that aggregate information about digital objects from libraries, archives, museums, and other cultural heritage institutions within its given state or region.    
@@ -295,24 +330,35 @@ Each Service Hub also offers its state or regional partners a full menu of stand
 
 ------------------
 
-# ![](images/hubs-map.jpg)
+![New Hubs](images/new-hubs.png)
+
+<div role="note" class="note">
+With two service hubs and four content hubs waiting in the wings. Getty, Indiana, Gov’t Printing Office, Connecticut, and California Digital Library.
+</div>
+
+------------------
+
+# ![Hubs Map](images/hubs-map.jpg)
+
 
 <div role="note" class="note">
 This is a map of both current hubs and those which are in progress, indicating states with active service hubs, the partner states for service hubs, and the location of content hubs.
 </div>
+
+------------------
 
 # A Network of Partners
 
 ![](images/partners.png)
 
 <div role="note" class="note">
-But, the DPLA is really made up of over 1,100 partners - institutions and organizations from across the US - that provide content to or are hosted by (or have some other relationship with) our Hubs.    
+But the DPLA is really made up of over 1,300 partners - institutions and organizations from across the US - that provide content to or are hosted by (or have some other relationship with) our Hubs.    
 In turn, the Hubs serve up this content to DPLA. 
 </div>
 
 ------------------
 
-![DPLA partners as of 2013](images/partners-chart.png)
+![DPLA partners as of 2014](images/partners-chart.png)
 
 <div role="note" class="note">
 This chart represents the breakdown as of 2013 in terms of types of partners whose content is represented in DPLA.    
@@ -337,9 +383,19 @@ The image on the right, however, represents that the Service and Content Hubs mo
 I like to think of us more like a water cycle, wherein all partners play an equally visible and valuable role in the content sharing process.
 </div>
 
+# Benefts for Partners {.takahashi}
+
+<div role="note" class="note">
+Partners who contribute their metadata to DPLA themselves also benefit from their participation in a number of ways, including increased access, increased visibility, and increased usage.
+</div>
+
+# Increased Access {.takahashi}
+
+We'll first talked about increased access and the network effects that DPLA participation provides.
+
 ------------------
 
-![Rudolph Volk and Martin Klein in an old automobile, east of St. Peter, Minnesota, 1907?. Nicollet County Historical Society, Minnesota Digital Library](images/maxwell-1.png)
+![[Rudolph Volk and Martin Klein in an old automobile, east of St. Peter, Minnesota](http://dp.la/item/990ff98d6cb5d8d5fd0f823c08747238), 1907?. Nicollet County Historical Society, Minnesota Digital Library](images/maxwell-1.png)
 
 <div role="note" class="note">
 For example, The Maxwell automobile company was formed in 1904 and ceased to exist in 1925.    
@@ -348,7 +404,7 @@ You love Maxwell cars: How do you know that the image even exists?
 
 ------------------
 
-![](images/maxwell-2.png)
+# ![](images/maxwell-2.png)
 
 <div role="note" class="note">
 This image is from the Nicollet County Historical Society in St. Peter, Minnesota.    
@@ -362,18 +418,40 @@ You’ve never heard of Nicollet County or even St. Peter, since you don't live 
 
 <div role="note" class="note">
 Luckily, Nicolett County Historical Society works with the Minnesota Digital Library, which manages their digital collections. Luckily, MDL works with DPLA.    
-And, luckily for you, you’ve found DPLA and all of the Maxwell Automobile images available from six institutions across the US, including that one from the NCHS.
-</div>
-
-------------------
-
-![](images/maxwell-4.png)
-
-<div role="note" class="note">
+And, luckily for you, you’ve found DPLA and all of the Maxwell Automobile images available from six institutions across the US, including that one from the NCHS.    
 The luck continues--now you know about MDL because you’ve followed the link back to their site to see that awesome image.    
 And, maybe now you know that the NCHS exists.   
 And, just maybe you’ll visit their site, contact them, or spread the good word about how you found that image and where it comes from.
 </div>
+
+# Increased visibility 
+
+"... [DPLA’s] holdings, which come from institutions ranging from the Smithsonian and the New York Public Library to the **Minnesota Streetcar Museum** and the Montana Memory Project, include items in more than 400 languages ...""
+
+[New York Times ArtsBeat blog, April 22, 2014](http://artsbeat.blogs.nytimes.com/2014/04/22/digital-public-library-of-america-marks-a-year-of-rapid-growth/)
+
+<div role="note" class="note">
+By participating in a national network, DPLA parteners also benefit from promotion around DPLA itself.    
+For example, DPLA's first anniversary was recently covered by a blog on the New York Times ArtsBeat blog.    
+Staff from the Minnesota Streetcar Museum saw a spike in usage of their materials on the days following the publication of this blog post. 
+</div>
+
+
+# Increased usage
+
+* 1 million unique visitors to DPLA site in first year
+* Minnesota Digital Library: 55% increase in traffic since April 2013 DPLA launch
+* Mountain West Digital Library: 100% increase in both number of visitors and number of visits
+
+# Words from our Partners
+
+> "The DPLA ... throws open the door for people to find [Minnesota’s digital content] from across the country and across the globe.""
+>
+> — Jennifer Jones, Minnesota Historical Society
+>
+> "These tools (the Minnesota Digital Library and the Digital Library of America) will help us build, preserve, and honor this contemporary experience, and preserve it in a way that is going to enrich ... community building ... [with the cultural heritage institutions across the state of Minnesota].""
+> 
+> — Kit Hadley, Director, St. Paul Public Library
 
 # Partnership =</br>Local Connections {.takahashi}
 
@@ -399,7 +477,7 @@ Partnering with four service hubs:
 <http://dp.la/info/about/projects/public-library-partnerships/>
 
 <div role="note" class="note">
-DPLA has another opportunity to help strengthen the local connection between service hubs and the areas they serve.   
+DPLA has another opportunity to help strengthen the local connection between hubs and the areas they serve.   
 With the Public Library Partnerships Project, DPLA has the opportunity to provide public librarians in a small number of states with digital skills training.    
 This project also allows public librarians in libraries with special collections to connect with their local service hub, which can provide additional resources at the state or regional level.     
 The project will host 12 total workshops that will reach approximately 180 public librarians, teaching skills such as writing for the web, exhibition development, and understanding intellectual property rights.    
@@ -408,13 +486,50 @@ Through PLPP, more public library content will appear in DPLA.
 Although the quality and sustainability of relationships between DPLA, Hubs, and public libraries is the bigger project priority, we will also be happy to grow our number of public library partners and establish an even stronger local connection.
 </div>
 
-# Personal Connections {.takahashi}
+# Participating in DPLA {.takahashi}
 
 <div role="note" class="note">
-Of course, the hubs model allows us to do one kind of outreach.   
-In addition to undertaking outreach to librarians and archivists, DPLA should also provide outreach to the general public
-However, the DPLA staff is small, with seven current employees.
-How can we improve outreach to new communities with this limitation, plus further limitations on our travel budgets?
+Now that I've spoken about DPLA and some of the benefits we provide, you might be wondering how you can participate in DPLA!
+</div>
+
+# ![](images/hubs-map.jpg)
+
+<div role="note" class="note">
+The first option is to join or create a hub.    
+Kerri will be talking more specifically about the Empire State Digital Network, which is the service hub for New York state, but I will give you a brief overview of the process of what starting a new hub looks like.
+</div>
+
+# Hub Creation Process
+
+* Consider your Hub type (or consult with us) 
+* Find some partners!
+* Contact us (content@dp.la)
+* Agree to open your metadata as public domain under a CC0 license
+* Sign the data exchange agreement
+* Map your data to our metadata application profile (we'll help)
+* Provide a single source (a feed or endpoint) so we can grab your data
+* Start sharing!
+
+<http://dp.la/info/get-involved/partnerships/>
+
+------------------
+
+![<http://dp.la/info/developers/>](images/dpla-hack.png)
+
+<div role="note" class="note">
+You can also build apps using our API, like the ones I discussed for and those listed here.    
+We encourage the independent development of applications, tools, and resources that make use of data contained in the DPLA platform in new and innovative ways, from anywhere at anytime.
+</div>
+
+------------------
+
+![<http://dp.la/info/get-involved/open-calls/>](images/open-calls.png)
+
+<div role="note" class="note">
+Every month DPLA’s Board of Directors and its various committees hold monthly calls which are open to the public.    
+Open Board calls are monthly open conference calls held by DPLA’s Board of Directors.     
+Open Committee calls are a monthly series of open conference calls, separate from the open Board calls, focused on topics related to our operational committees.   
+Anyone can join the open calls, either just by listening in or asking questions.
 </div>
 
 # Community Reps {.takahashi}
@@ -424,18 +539,20 @@ In September 2013, DPLA staff conceived of a program of community representative
 While DPLA was still in its planning phase, my colleagues found that our web forums and committees provided a forum for interested and motivated people to help out and give us feedback.    
 </div>
 
-# Initial Reps
+# Meet the Reps
 
 ![<http://dp.la/info/get-involved/reps/community-reps-meet-the-reps/>](images/community-reps.png)
 
 <div role="note" class="note">
-Our first class of community reps was announced in January 2014.   
-We admitted approximately 100 people in the first class, and include representation from K-12 education, public libraries, state libraries, municipal archives, public history and museums, publishing, media, genealogy, and many areas of higher education.    
+Our first class of community reps was announced in January 2014, and we admitted a second class of community reps in May 2014.
+We admitted approximately 100 people in the each class, and the Reps include representation from K-12 education, public libraries, state libraries, municipal archives, public history and museums, publishing, media, genealogy, and many areas of higher education.    
 Proposed activities by our initial class of reps include creating materials to leverage DPLA as a teaching and learning resource, hackathons and other events targeted at software developers, and outreach to rural public libraries.   
 Community Reps are assigned a contact that is a full-time DPLA employee, to whom they can direct any questions, and are provided with basic training through a webinar.
 </div>
 
 ----------------
+
+# Where are Reps located?
 
 ![<http://dp.la/info/get-involved/reps/community-reps-meet-the-reps/>](images/community-reps-map.png)
 
@@ -466,116 +583,6 @@ Finally, we may ask Community Reps on occasion to give a presentation or partici
 For example, if they are attending or live near a conference at which the organizers have asked for a DPLA presentation, we may ask them to take this on if DPLA staff are unable to participate.
 </div>
 
-# What's Next<br/>for Reps? {.takahashi}
-
-<div role="note" class="note">
-The Community Reps program is already showing some early signs of success, and we could not keep up with the enthusiasm shown by the community!   
-We have just announced recruitment for our second class of community reps, and we are looking to greatly extend our reach by searching for applicants from states and territories in which we have no reps.     
-Applications close on April 30th, and we look forward to further expanding our reach and geographic diversity.    
-Given some inital review of the Community Reps program, we have decided to more explicitly ask applicants to identify the communities to which they intend to provide outreach.    
-Doing so will allow us to have a better understanding of where our strengths and gaps may be, and can provide important information about where to undertake targeted outreach in the future, either through the Reps program or using DPLA staff time.
-</div>
-
-# Finding Items {.takahashi}
-## The DPLA Map
-
-<div role="note" class="note">
-Finally, and perhaps the most obvious way in which DPLA provides a place based location is through the map in the Portal.    
-</div>
-
-------------------
-
-![](images/map-1.png)
-
-<div role="note" class="note">
-The map interface presents items contributed by DPLA partners that have some degree of geographic information included wihtin their metadata.    
-It is important to note that not all records in DPLA have geographic information.   
-As the search box at the top indicates, only records with geographic information appear on the map, and while that is a large portion of the DPLA’s collection, it is not all items related to a search.
-</div>
-
-------------------
-
-![](images/map-2.png)
-
-<div role="note" class="note">
-One very common misconception about the DPLA map is that it organizes records geographically by the institutions they come from.     
-For example, users of this search might assumed that we have 55 "baseball" items owned by Arizona institutions.    
-In reality, we have 55 items related to baseball that have been identified as "being about", representing, or depicting Arizona – like images taken there.    
-</div>
-
-------------------
-
-![](images/map-3.png)
-
-<div role="note" class="note">
-As you zoom in, you can more clearly see the places depicted or represented in these items, based on the information.   
-But how do we get this information?
-</div>
-
-------------------
-
-![](images/metadata-flow.png)
-
-<div role="note" class="note">
-This goes back to the process by which we work with the metadata we receive.    
-Many of our providers include place names or other geographic headings in their metadata, and as part of the enrichment process we identify those headings.   
-We send the text of those headings to a geocoding service, which looks them up in a database, and returns a set of latitude and longitude coordinates for that place.    
-Once we have those coordinates, we send them back to another service that "reverse geocodes" them and provides us with a full place hierarchy, including country, state or province, region or county, and city, when available.     
-</div>
-
-------------------
-
-![The Kansas Problem](images/map-4.png)
-
-<div role="note" class="note">
-Usually, this works well, except when it doesn't.   
-One example of this is what I call the Kansas problem.   
-If you look at the map, it suggests that there are nearly 450,000 records that are associated with Kansas.    
-However, very few (if any) of these items are about Kansas.
-So, why is this happening? Naturally, we discovered it was a bug in our process.
-The only spatial value being passed to us from the Hubs is "United States."     
-When we get ONLY that value, we're grabbing coordinates for the center of the country and then reverse identifying the location... as Kansas.
-We've had other problems as well, such as geocoding services misidentifying which place we were talking about.
-</div>
-
-# Transparency {.takahashi}
-
-<div role="note" class="note">
-Improving our metadata enrichment process is a repetitive and iterative process, and requires feedback.    
-Problems like this are serious, however, as we really do want to provide our user community with a sense of confidence in what we do.    
-In addition, if we have problems with our metadata that impacts our user experience, this could easily threaten the level of trust that our users might have in our ability to provide reliable information.  
-We are thinking about how to provide better transparency to our users about these processes given that our metadata enhancement processes evolve quickly to address changing needs, new partners, and other issues.    
-There is some concern about how to do this in a way which explains things without relying on technical or professional jargon without oversimplifying our work.
-</div>
-
-# Feedback {.takahashi}
-
-<div role="note" class="note">
-We also have been thinking about ways in which we can provide better user feedback mechanisms that will allow people to give us feedback about the data we present.    
-How should we be gathering feedback from users about the accuracy of our data?    
-One possibility would be to provide more opportunities to include user commentary, either through the site itself or through an application that uses the DPLA Platform API.    
-In addition, how should that feedback flow back to the hubs and the partners from which we received the data?   
-One area in which DPLA could lead would be to help provide better infrastructure to allow multiple narratives, such as lighter weight exhibitions, which we could either host or that used a minimal amount of infrastructure.    
-</div>
-
-# Accountability {.takahashi}
-
-<div role="note" class="note">
-As a small, non-profit organization, we also may not always have the subject or regional expertise about a topic to know whether the information is accurate.   
-However, as a national-level aggregator, DPLA has some degree of responsibility here.    
-But what is that level of responsibility?
-We do have some degree of influence, but we cannot always control what our hubs and partners do.    
-In addition, how do we respect the expertise of those local partners, whose metadata may be dismissed by some as incorrect, incomplete, or otherwise problematic?    
-What is the balance of accountability that we should strive to achieve?
-</div>
-
-# Lather, Rinse, Repeat {.takahashi}
-
-<div role="note" class="note">
-We do not yet have the solutions, but we're certainly looking for suggestions.   
-DPLA is uniquely situated because of its independence, and we need to take the same iterative approach to building trust and developing a connection with local communities as we use to enhance metadata received from our partners.    
-</div>
-
 # Thank You!
 
 [\@anarchivist](https://twitter.com/anarchivist)
@@ -585,7 +592,7 @@ DPLA is uniquely situated because of its independence, and we need to take the s
 <http://matienzo.org/presentations>
 
 <div role="note" class="note">
-Thank you for your time.    
-I look forward to speaking with you further, and I would greatly appreciate any questions or feedback about the work we're doing at DPLA.
+DPLA continues to work to help unlock and provide greater access to these resources for the benefit of all.    
+Thank you for your time!
 </div>
 
